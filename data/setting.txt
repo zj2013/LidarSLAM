@@ -1,0 +1,10 @@
+%YAML:1.0
+---
+pointCloudTopic:"/velodyne_points"
+odometry_Topic:"/laser_odometry"
+downsample_resolution: 0.25
+results_path:"/home/sakura/lib/Robot/src/Lidar_SLAM/data/"
+sleepTimeGPS:1*1e6
+sleepTimeCompass:0.5*1e6
+deviceNameGPS:"/dev/ttyUSB0"
+deviceNameCompass:"/dev/ttyUSB1"
